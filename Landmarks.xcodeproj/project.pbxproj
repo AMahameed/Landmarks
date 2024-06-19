@@ -17,6 +17,7 @@
 		73186EF12C22FAF200F46213 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73186EF02C22FAF200F46213 /* Property List.plist */; };
 		73186EF42C22FBAB00F46213 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73186EF32C22FBAB00F46213 /* Roboto-Light.ttf */; };
 		73186EF72C22FCFB00F46213 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73186EF62C22FCFB00F46213 /* Roboto-Bold.ttf */; };
+		73186EFA2C23003700F46213 /* Font+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73186EF92C23003700F46213 /* Font+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		73186EF02C22FAF200F46213 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		73186EF32C22FBAB00F46213 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		73186EF62C22FCFB00F46213 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		73186EF92C23003700F46213 /* Font+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				73186EC62C22F50900F46213 /* LandmarksApp.swift */,
 				73186EC82C22F50900F46213 /* ContentView.swift */,
+				73186EF82C23001700F46213 /* Extension */,
 				73186ECC2C22F50A00F46213 /* Preview Content */,
 				73186EF52C22FBBC00F46213 /* Assets */,
 			);
@@ -150,6 +153,14 @@
 				73186EF22C22FB9600F46213 /* Fonts */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		73186EF82C23001700F46213 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				73186EF92C23003700F46213 /* Font+Ext.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +298,7 @@
 			files = (
 				73186EC92C22F50900F46213 /* ContentView.swift in Sources */,
 				73186EC72C22F50900F46213 /* LandmarksApp.swift in Sources */,
+				73186EFA2C23003700F46213 /* Font+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

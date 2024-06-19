@@ -3,6 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Fonts provided by application.</key>
-	<string>&quot;Roboto-Light.ttf&quot; &quot;Roboto-Bold.ttf&quot;</string>
+	<array>
+		<string>&quot;Roboto-Light.ttf&quot;</string>
+		<string>&quot;Roboto-Bold.ttf&quot;</string>
+	</array>
 </dict>
 </plist>
