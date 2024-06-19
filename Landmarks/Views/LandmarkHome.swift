@@ -1,5 +1,5 @@
 //
-//  Landmark.swift
+//  LandmarkHome.swift
 //  Landmarks
 //
 //  Created by AbdallahMahameed on 19/06/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Landmark: View {
+struct LandmarkHome: View {
     
     var body: some View {
         VStack {
@@ -47,5 +47,5 @@ struct Landmark: View {
 }
 
 #Preview {
-    Landmark()
+    LandmarkHome()
 }
