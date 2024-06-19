@@ -38,6 +38,6 @@ extension Text {
 }
 
 enum FontsWeight: CGFloat {
-    case title = 32.0
-    case subHeadline = 20.0
+    case title = 24.0
+    case subHeadline = 18.0
 }
