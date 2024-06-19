@@ -33,11 +33,8 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
-//            .toolbar {
-//                Toggle("", systemImage: showFavirotsOnly ? "star.fill" : "star", isOn: $showFavirotsOnly)
-//                    .padding()
-//            }
             .animation(.easeInOut(duration: 0.3), value: filteredLandmarks)
+            
         } detail: {
             Text("Select a Landmark")
         }

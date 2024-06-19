@@ -4,8 +4,8 @@
 <dict>
 	<key>Fonts provided by application.</key>
 	<array>
-		<string>&quot;Roboto-Light.ttf&quot;</string>
-		<string>&quot;Roboto-Bold.ttf&quot;</string>
+		<string>&quot;NotoSans-Medium.ttf&quot;</string>
+		<string>&quot;NotoSans-Light.ttf&quot;</string>
 	</array>
 </dict>
 </plist>

@@ -9,6 +9,6 @@ import Foundation
 
 struct Constants {
     struct fonts {
-        static let robotoLight = "Roboto-Light.ttf"
+        static let sansLight = "Roboto-Light.ttf"
     }
 }

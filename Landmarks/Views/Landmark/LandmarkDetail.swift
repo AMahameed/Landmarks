@@ -28,27 +28,29 @@ struct LandmarkDetail: View {
             VStack(alignment: .leading) {
                 HStack {
                     Text(landmark.name)
-                        .withCustomFont(name: Constants.fonts.robotoLight, font: .title)
+                        .withCustomFont(name: Constants.fonts.sansLight, font: .title)
                     
                     FavoriteButton(isSet: $landmarkVM.landmarks[landmarkIndex].isFavorite)
                 }
                 
                 HStack {
                     Text(landmark.park)
-                        .withCustomFont(name: Constants.fonts.robotoLight, font: .subheadline)
+                        .withCustomFont(name: Constants.fonts.sansLight, font: .subheadline)
                     Spacer()
                     Text(landmark.state)
-                        .withCustomFont(name: Constants.fonts.robotoLight, font: .subheadline)
+                        .withCustomFont(name: Constants.fonts.sansLight, font: .subheadline)
                 }
                 .foregroundStyle(.secondary)
                 
                 Divider()
                 
                 Text("About \(landmark.name)")
-                    .withCustomFont(name: Constants.fonts.robotoLight, font: .subheadline)
+                    .withCustomFont(name: Constants.fonts.sansLight, font: .title)
+                    .padding(.bottom, 4.0)
+                    
                 
                 Text(landmark.description)
-                    .withCustomFont(name: Constants.fonts.robotoLight, font: .subheadline)
+                    .withCustomFont(name: Constants.fonts.sansLight, font: .subheadline)
                 
                 
             }

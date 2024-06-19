@@ -18,7 +18,7 @@ struct LandmarkRow: View {
                 .clipShape(RoundedRectangle(cornerSize: CGSize(width: 8, height: 0)))
             
             Text(landmark.name)
-                .withCustomFont(name: Constants.fonts.robotoLight, font: .title)
+                .withCustomFont(name: Constants.fonts.sansLight, font: .title)
             
             Spacer()
             
