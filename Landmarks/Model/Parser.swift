@@ -7,7 +7,10 @@
 
 import Foundation
 
-var landmarks: [Landmark] = parse("landmarkData.json")
+@Observable
+class LandmarkViewModel {
+    var landmarks: [Landmark] = parse("landmarkData.json")    
+}
 
 func parse<T: Decodable>(_ fileName: String) -> T {
     let data: Data

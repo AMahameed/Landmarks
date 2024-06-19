@@ -15,6 +15,7 @@ struct LandmarkRow: View {
             landmark.image
                 .resizable()
                 .frame(width: 50, height: 50)
+                .clipShape(RoundedRectangle(cornerSize: CGSize(width: 8, height: 0)))
             
             Text(landmark.name)
                 .withCustomFont(name: Constants.fonts.robotoLight, font: .title)
@@ -33,7 +34,7 @@ struct LandmarkRow: View {
 
 #Preview {
     Group {
-        LandmarkRow(landmark: landmarks[0])
-        LandmarkRow(landmark: landmarks[1])
+        LandmarkRow(landmark: LandmarkViewModel().landmarks[0])
+        LandmarkRow(landmark: LandmarkViewModel().landmarks[1])
     }
 }

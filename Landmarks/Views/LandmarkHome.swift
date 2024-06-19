@@ -16,4 +16,5 @@ struct LandmarkHome: View {
 
 #Preview {
     LandmarkHome()
+        .environment(LandmarkViewModel())
 }
