@@ -14,6 +14,9 @@
 		73186ED82C22F50A00F46213 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73186ED72C22F50A00F46213 /* LandmarksTests.swift */; };
 		73186EE22C22F50A00F46213 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73186EE12C22F50A00F46213 /* LandmarksUITests.swift */; };
 		73186EE42C22F50A00F46213 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73186EE32C22F50A00F46213 /* LandmarksUITestsLaunchTests.swift */; };
+		73186EF12C22FAF200F46213 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73186EF02C22FAF200F46213 /* Property List.plist */; };
+		73186EF42C22FBAB00F46213 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73186EF32C22FBAB00F46213 /* Roboto-Light.ttf */; };
+		73186EF72C22FCFB00F46213 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73186EF62C22FCFB00F46213 /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		73186EDD2C22F50A00F46213 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73186EE12C22F50A00F46213 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		73186EE32C22F50A00F46213 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73186EF02C22FAF200F46213 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		73186EF32C22FBAB00F46213 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		73186EF62C22FCFB00F46213 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		73186EBA2C22F50900F46213 = {
 			isa = PBXGroup;
 			children = (
+				73186EF02C22FAF200F46213 /* Property List.plist */,
 				73186EC52C22F50900F46213 /* Landmarks */,
 				73186ED62C22F50A00F46213 /* LandmarksTests */,
 				73186EE02C22F50A00F46213 /* LandmarksUITests */,
@@ -96,8 +103,8 @@
 			children = (
 				73186EC62C22F50900F46213 /* LandmarksApp.swift */,
 				73186EC82C22F50900F46213 /* ContentView.swift */,
-				73186ECA2C22F50A00F46213 /* Assets.xcassets */,
 				73186ECC2C22F50A00F46213 /* Preview Content */,
+				73186EF52C22FBBC00F46213 /* Assets */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -125,6 +132,24 @@
 				73186EE32C22F50A00F46213 /* LandmarksUITestsLaunchTests.swift */,
 			);
 			path = LandmarksUITests;
+			sourceTree = "<group>";
+		};
+		73186EF22C22FB9600F46213 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				73186EF62C22FCFB00F46213 /* Roboto-Bold.ttf */,
+				73186EF32C22FBAB00F46213 /* Roboto-Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		73186EF52C22FBBC00F46213 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				73186ECA2C22F50A00F46213 /* Assets.xcassets */,
+				73186EF22C22FB9600F46213 /* Fonts */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73186EF12C22FAF200F46213 /* Property List.plist in Resources */,
 				73186ECE2C22F50A00F46213 /* Preview Assets.xcassets in Resources */,
+				73186EF72C22FCFB00F46213 /* Roboto-Bold.ttf in Resources */,
+				73186EF42C22FBAB00F46213 /* Roboto-Light.ttf in Resources */,
 				73186ECB2C22F50A00F46213 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
